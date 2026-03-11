@@ -115,7 +115,7 @@ The 5-fold cross-validation revealed distinct performance patterns across the fo
 | ***3rd*** | **Gradient Boosting** | 0.8076 | ±0.0146 | Balanced performance, lowest variance |
 | ***4th*** | **XGBoost** | 0.8055 | ±0.0307 | Most inconsistent across folds |
 
-![Cross-Validation Results](Assets/cross_val.png)
+![Cross-Validation Results](assets/cross_val.png)
 ***Figure 01:** Cross-Validation Results.*
 
 #### Key Insights
@@ -128,7 +128,7 @@ The 5-fold cross-validation revealed distinct performance patterns across the fo
 
 The results are further visualized using a heatmap to observe fold-wise performance.
 
-![Cross-Validation Heatmap](Assets/fold_heatmap.png)
+![Cross-Validation Heatmap](assets/fold_heatmap.png)
 ***Figure 02:** Cross-Validation Heatmap.*
 
 We can see from the heatmap above that CatBoost has the most consistent performance across all folds with minimal variation.
@@ -228,13 +228,13 @@ The Optuna framework's intelligent search strategy discovered a configuration th
 
 **Methodology:** Both **SHAP (Shapley Additive exPlanations)** values and **native CatBoost feature importance rankings** were used to identify key revenue drivers through bar charts, beeswarm plots, and numerical importance scores.
 
-![Feature Importance](Assets/shap_whole.png)
+![Feature Importance](assets/shap_whole.png)
 ***Figure 03:** Across the entire dataset, which features matter the most on average?*
 
-![SHAP Beeswarm](Assets/shap_individual.png)
+![SHAP Beeswarm](assets/shap_individual.png)
 ***Figure 04:** How do individual feature values push predictions up or down across all samples?*
 
-![SHAP Movie 01](Assets/shap_0.png)
+![SHAP Movie 01](assets/shap_0.png)
 ***Figure 05:** For one specific movie, why did the model predict a particular value??*
 
 ### **Key Findings**
